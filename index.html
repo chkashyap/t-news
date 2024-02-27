@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>NewsFeed</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Mallanna|Mandali" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/font.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/li-scroller.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/slick.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/jquery.fancybox.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/theme.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<!--[if lt IE 9]>
+<script src="assets/js/html5shiv.min.js"></script>
+<script src="assets/js/respond.min.js"></script>
+<![endif]-->
+</head>
+<body>
+  <div id="preloader">
+    <div id="status">&nbsp;</div>
+  </div>
+  <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
+  <div class="container">
+    <header id="header">
+      <div class="row">
+<!-- <div class="col-lg-12 col-md-12 col-sm-12">
+<div class="header_top">
+<div class="header_top_left">
+<ul class="top_nav">
+<li><a href="index.html">Home</a></li>
+<li><a href="#">About</a></li>
+<li><a href="pages/contact.html">Contact</a></li>
+</ul>
+</div>
+</div>
+</div> -->
+<div class="col-lg-12 col-md-12 col-sm-12">
+  <div class="header_bottom">
+    <div class="logo_area"><a href="index.html" class="logo"><img src="images/logo1.jpg" alt=""></a></div>
+    
+  </div>
+</div>
+</div>
+</header>
+<section id="navArea">
+  <nav class="navbar navbar-inverse" role="navigation">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav main_nav">
+        <li class="active"><a href="index.html"><span class="fa fa-home desktop-home"></span><span class="mobile-show">Home</span></a></li>
+        <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" title="వార్తలు" >వార్తలు</a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#" title="ప్రపంచం">ప్రపంచం</a></li>
+            <li><a href="#" title="క్రీడలు">క్రీడలు</a></li>
+            <li><a href="#" title="రాజకీయాలు">రాజకీయాలు</a></li>
+            <li><a href="#"  title="వినోదం">వినోదం</a></li>
+
+          </ul>
+        </li>
+        <!-- <li><a href="#" title="ఆంధ్రప్రదేశ్ ">ఆంధ్రప్రదేశ్</a></li> -->
+        <li><a href="#" title="తెలంగాణ">తెలంగాణ</a></li>
+        <!-- <li><a href="pages/contact.html">Contact Us</a></li> -->
+        <!-- <li><a href="pages/404.html">404 Page</a></li> -->
+      </ul>
+      <div class="header_top_right" style="float: right;">
+        <p id="demo"></p>
+        <script>
+          var d = new Date();
+          document.getElementById("demo").innerHTML = d.toString();
+        </script>
+      </div>
+    </div>
+  </nav>
+</section>
+<section id="newsSection">
+  <div class="row">
+    <div class="col-lg-12 col-md-12">
+      <div class="latest_newsarea"> <span>Flash News</span>
+        <ul id="ticker01" class="news_sticker">CSK
+          <li><a href="#"><img src="images/news_thumbnail3.jpg" alt="">TATA IPL IS GOING TO START FROM 22 MARCH FIRST MATCH IS  B/W RCB AND CSK</a></li>
+          <li><a href="#"><img src="images/news_thumbnail3.jpg" alt=""></a></li>
+        </ul>
+        <div class="social_area">
+          <ul class="social_nav">
+            <li class="facebook"><a href="#"></a></li>
+            <li class="twitter"><a href="#"></a></li>
+            <!-- <li class="flickr"><a href="#"></a></li> -->
+            <!-- <li class="pinterest"><a href="#"></a></li> -->
+            <li class="googleplus"><a href="#"></a></li>
+            <!-- <li class="vimeo"><a href="#"></a></li> -->
+            <li class="youtube"><a href="#"></a></li>
+            <li class="mail"><a href="#"></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="sliderSection">
+  <div class="row">
+    <div class="col-lg-8 col-md-8 col-sm-8">
+      <div class="slick_slider">
+        <div class="single_iteam"> <a href="pages/single_page.html"> <img src="images\F-_-dVNWQAEJvbK.jpg" alt=""></a>
+          <div class="slider_article">
+            <h2><a class="slider_tittle" href="pages/single_page.html">రాజ్‌కోట్‌లో 73 ఏళ్ల రికార్డును బద్దలు కొట్టిన రోహిత్ శర్మ, సెంచరీ బాదిన భారత కెప్టెన్‌గా రికార్డు సృష్టించాడు.</p>
+          </div>
+        </div>
+        <div class="single_iteam"> <a href="pages/single_page.html"> <img src="images/ent1.jpg" alt=""></a>
+          <div class="slider_article">
+            <h2><a class="slider_tittle" href="pages/single_page.html">Apple Vision Pro అనేది Apple Inc అభివృద్ధి చేసిన మిక్స్డ్-రియాలిటీ హెడ్‌సెట్. ఇది Apple యొక్క వరల్డ్‌వైడ్ డెవలపర్స్ కాన్ఫరెన్స్‌లో జూన్ 5, 2023న ప్రకటించబడింది మరియు ప్రీ-ఆర్డర్‌లు జనవరి 19, 2024న ప్రారంభమయ్యాయి. ఇది ఫిబ్రవరి 2, 2024న కొనుగోలుకు అందుబాటులోకి వచ్చింది. , యునైటెడ్ స్టేట్స్ లో.[10] ప్రపంచవ్యాప్త లాంచ్ ఇంకా షెడ్యూల్ చేయాల్సి ఉంది. </p>
+          </div>
+        </div>
+        <div class="single_iteam"> <a href="pages/single_page.html"> <img src="images/gpt.jpg" alt=""></a>
+          <div class="slider_article">
+            <h2><a class="slider_tittle" href="pages/single_page.html">
+              మీరు ఎవరో మరియు మీకు నచ్చిన వాటిని గుర్తుంచుకోవడానికి ChatGPT 'మెమరీ'ని పొందుతోంది.</p>
+          </div>
+        </div>
+        <div class="single_iteam"> <a href="pages/single_page.html"> <img src="images/images.jpg" alt=""></a>
+          <div class="slider_article">
+            <h2><a class="slider_tittle" href="pages/single_page.html">
+              అనుముల రేవంత్ రెడ్డి (జననం 8 నవంబర్ 1969) ఒక భారతీయ రాజకీయ నాయకుడు, అతను 7 డిసెంబర్ 2023 నుండి తెలంగాణకు రెండవ మరియు ప్రస్తుత ముఖ్యమంత్రిగా పనిచేస్తున్నాడు.[α][2] అతను తెలంగాణా శాసనసభలో కొడంగల్ నియోజకవర్గానికి ప్రాతినిధ్యం వహిస్తున్నాడు. అతను భారత జాతీయ కాంగ్రెస్‌కు చెందినవాడు </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-4">
+      <div class="latest_post">
+        <h2><span>Latest News</span></h2>
+        <div class="latest_post_container">
+          <div id="prev-button"><i class="fa fa-chevron-up"></i></div>
+          <ul class="latest_postnav">
+            <li>
+              <div class="media"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="images/download.png"> </a>
+                <div class="media-body"> <a href="pages/single_page.html" class="catg_title"> టీమిండియా క్రికెటర్లకు సెలవులు.. ఇంగ్లండ్‌తో సిరీస్ మధ్యలోనే ఇంటికి.కారణమిదే</a> </div>
+              </div>
+            </li>
+            <li>
+              <div class="media"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="images/enter.png"> </a>
+                <div class="media-body"> <a href="pages/single_page.html" class="catg_title"> ప్రభాసా.. మజాకా.. ఇంగ్లాండ్‌లో ఖరీదైన ప్రదేశంలో లగ్జరీ ఇల్లు తీసుకుంటున్న రెబల్ స్టార్.. </a> </div>
+              </div>
+            </li>
+            <li>
+              <div class="media"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="images/politics.png"> </a>
+                <div class="media-body"> <a href="pages/single_page.html" class="catg_title"> హరీశ్ రావు కాంగ్రెస్‌లో చేరితో ఆ శాఖకు మంత్రిగా చేస్తాం: కోమటిరెడ్డి</a> </div>
+              </div>
+            </li>
+            <li>
+              <div class="media"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="images/tech.png"> </a>
+                <div class="media-body"> <a href="pages/single_page.html" class="catg_title"> రేపటి టెక్నాలజీ నేడు - యాపిల్ నుంచి మరో వండర్,ఏంటీ విజన్ ప్రో..!</a> </div>
+              </div>
+            </li>
+            <li>
+              <div class="media"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="images/post_img1.jpg"> </a>
+                <div class="media-body"> <a href="pages/single_page.html" class="catg_title"> హాయ్‌ రామ్, నేను నాలుగేళ్ల నుండి సాఫ్ట్‌వేర్‌ జాబ్‌ చేస్తున్నాను</a> </div>
+              </div>
+            </li>
+          </ul>
+          <div id="next-button"><i class="fa  fa-chevron-down"></i></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="contentSection">
+  <div class="row">
+    <div class="col-lg-8 col-md-8 col-sm-8">
+      <div class="left_content">
+        <div class="single_post_content">
+          <h2><span><!-- బిజిbey నెస్ --> Story Board</span></h2>
+          <div class="single_post_content_left">
+            <ul class="business_catgnav  wow fadeInDown">
+              <li>
+                <figure class="bsbig_fig"> <a href="pages/single_page.html" class="featured_img"> <img alt="" src="images/gpay.jpg"> <span class="overlay"></span> </a>
+                  <figcaption> <a href="pages/single_page.html">జూన్ లో google pay సేవలు బంద్.. విషయం ఏమిటంటే!!</a> </figcaption>
+                  <p>నగదును నేరుగా తీసుకువెళ్లే రోజులు పోయి... ప్రతి చిన్న అవసరానికి డిజిటల్ లావాదేవీలు చేయడం అలవాటయింది.</p>
+                </figure>
+              </li>
+              <li>
+                <figure class="bsbig_fig"> <a href="pages/single_page.html" class="featured_img"> <img alt="" src="images/featured_img1.jpg"> <span class="overlay"></span> </a>
+                  <figcaption> <a href="pages/single_page.html">విజయాల వేటలో మీరెక్కడ?</a> </figcaption>
+                  <p>విజయం రుచి చూసినవారు దాన్ని వదులుకోవటానికి ఇష్టపడరు.</p>
+                </figure>
+              </li>
+            </ul>
+          </div>
+          <div class="single_post_content_right">
+            <ul class="spost_nav">
+              <li>
+                <div class="media wow fadeInDown"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="images/pune smart.jpg"> </a>
+                  <div class="media-body"> <a href="pages/single_page.html" class="catg_title"> పుణెలోని స్మార్ట్ సిటీ ప్రాజెక్ట్ గ్లోబల్ సస్టైనబిలిటీ అవార్డును గెలుచుకుంది</div>
+                </div>
+              </li>
+              <li>
+                <div class="media wow fadeInDown"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="images/trad.jpg"> </a>
+                  <div class="media-body"> <a href="pages/single_page.html" class="catg_title"> అంతర్జాతీయ సాంస్కృతిక ఉత్సవంలో భారతీయ సాంప్రదాయ కళారూపం ప్రధాన వేదికగా నిలిచింది</a> </div>
+                </div>
+              </li>
+              <li>
+                <div class="media wow fadeInDown"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="images/crcikk.png"> </a>
+                  <div class="media-body"> <a href="pages/single_page.html" class="catg_title"> అంతర్జాతీయ టీ20 సిరీస్‌లో భారత క్రికెట్ సంచలనం చారిత్రాత్మక మైలురాయిని సాధించింది</a> </div>
+                </div>
+              </li>
+              <li>
+                <div class="media wow fadeInDown"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="images/med.jpg"> </a>
+                  <div class="media-body"> <a href="pages/single_page.html" class="catg_title"> ఢిల్లీలో సంచలనాత్మక మెడికల్ డిస్కవరీ అరుదైన వ్యాధి రోగులకు ఆశను అందిస్తుంది</a> </div>
+                </div>
+              </li>
+              <li>
+                <div class="media wow fadeInDown"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="images/edu.png"> </a>
+                  <div class="media-body"> <a href="pages/single_page.html" class="catg_title"> బాలీవుడ్ ఐకాన్ నిరుపేద పిల్లలకు విద్యను అందించడానికి ఛారిటీ ఇనిషియేటివ్‌ను ఆవిష్కరించింది</a> </div>
+                </div>
+              </li>
+              <li>
+                <div class="media wow fadeInDown"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="images/isro.jpg"> </a>
+                  <div class="media-body"> <a href="pages/single_page.html" class="catg_title">వాతావరణ పర్యవేక్షణ కోసం భారత అంతరిక్ష సంస్థ అత్యాధునిక ఉపగ్రహాన్ని ప్రయోగించింది</a> </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+<!-- <div class="fashion_technology_area">
+<div class="fashion">
+<div class="single_post_content">
+<h2><span>క్రీడలు</span></h2>
+<ul class="business_catgnav wow fadeInDown">
+<li>
+<figure class="bsbig_fig"> <a href="pages/single_page.html" class="featured_img"> <img alt="" src="images/featured_img2.jpg"> <span class="overlay"></span> </a>
+<figcaption> <a href="pages/single_page.html">ఆ క్రికెటర్ ను ప్రతీ జట్టు కోరుకుంటుంది</a> </figcaption>
+<p>చాంపియన్స్ ట్రోఫీలో ఆస్ట్రేలియాతో జరిగిన వన్డేలో సెంచరీతో ఆకట్టుకున్న ఇంగ్లండ్ ఆల్ రౌండర్ </p>
+</figure>
+</li>
+</ul>
+<ul class="spost_nav">
+<li>
+<div class="media wow fadeInDown"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="images/post_img1.jpg"> </a>
+<div class="media-body"> <a href="pages/single_page.html" class="catg_title"> బ్యాటింగ్, బౌలింగ్, ఫీల్డింగ్ల్లో స్టోక్స్ ది ప్రత్యేక స్థానం. అతనొక కీలకమైన ఆల్ రౌండర్. </a> </div>
+</div>
+</li>
+<li>
+<div class="media wow fadeInDown"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="images/post_img2.jpg"> </a>
+<div class="media-body"> <a href="pages/single_page.html" class="catg_title"> నిన్నటి మ్యాచ్ లో చాలా పరుగుల్ని స్టోక్స్ సేవ్ చేశాడు. దాంతో పాటు బౌలింగ్ లో కూడా మెరిశాడు</a> </div>
+</div>
+</li>
+<li>
+<div class="media wow fadeInDown"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="images/post_img1.jpg"> </a>
+<div class="media-body"> <a href="pages/single_page.html" class="catg_title">  మా జట్టులో స్టోక్స్ ఉండటం నిజంగా అదృష్టం.  ఏదో రకంగా జట్టుకు ఉపయోగపడుతూనే ఉంటాడు.</a> </div>
+</div>
+</li>
+<li>
+<div class="media wow fadeInDown"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="images/post_img2.jpg"> </a>
+<div class="media-body"> <a href="pages/single_page.html" class="catg_title">నిన్నటి మ్యాచ్ లో చాలా పరుగుల్ని స్టోక్స్ సేవ్ చేశాడు. దాంతో పాటు బౌలింగ్ లో కూడా మెరిశాడు</a> </div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="technology">
+<div class="single_post_content">
+<h2><span>సినిమా</span></h2>
+<ul class="business_catgnav">
+<li>
+<figure class="bsbig_fig wow fadeInDown"> <a href="pages/single_page.html" class="featured_img"> <img alt="" src="images/featured_img3.jpg"> <span class="overlay"></span> </a>
+<figcaption> <a href="pages/single_page.html">పరదేశీ మామ ఎక్కడున్నాడు?</a> </figcaption>
+<p>పవన్ కళ్యాణ్ మామ కోసం గాలింపు</p>
+</figure>
+</li>
+</ul>
+<ul class="spost_nav">
+<li>
+<div class="media wow fadeInDown"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="images/post_img1.jpg"> </a>
+<div class="media-body"> <a href="pages/single_page.html" class="catg_title"> వచ్చే ఏడాది ప్రభాస్ బాలీవుడ్ ఎంట్రీ.. కరణ్ జోహర్, జక్కన్న మంతనాల జోరు</a> </div>
+</div>
+</li>
+<li>
+<div class="media wow fadeInDown"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="images/post_img2.jpg"> </a>
+<div class="media-body"> <a href="pages/single_page.html" class="catg_title">వచ్చే ఏడాది ప్రభాస్ బాలీవుడ్ ఎంట్రీ.. కరణ్ జోహర్, జక్కన్న మంతనాల జోరు</a> </div>
+</div>
+</li>
+<li>
+<div class="media wow fadeInDown"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="images/post_img1.jpg"> </a>
+<div class="media-body"> <a href="pages/single_page.html" class="catg_title">వచ్చే ఏడాది ప్రభాస్ బాలీవుడ్ ఎంట్రీ.. కరణ్ జోహర్, జక్కన్న మంతనాల జోరు</a> </div>
+</div>
+</li>
+<li>
+<div class="media wow fadeInDown"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="images/post_img2.jpg"> </a>
+<div class="media-body"> <a href="pages/single_page.html" class="catg_title"> వచ్చే ఏడాది ప్రభాస్ బాలీవుడ్ ఎంట్రీ.. కరణ్ జోహర్, జక్కన్న మంతనాల జోరు</a> </div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div> -->
+</div>
+</div>
+<div class="col-lg-4 col-md-4 col-sm-4">
+  <aside class="right_content">
+    <div class="single_sidebar">
+      <h2><span>Popular Post</span></h2>
+      <ul class="spost_nav">
+        <li>
+          <div class="media wow fadeInDown"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="images/gold.jpg"> </a>
+            <div class="media-body"> <a href="pages/single_page.html" class="catg_title"> మూడో రోజూ క్షీణించిన బంగారం ధర </a> </div>
+          </div>
+        </li>
+        <li>
+          <div class="media wow fadeInDown"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="images/iphone.jpg"> </a>
+            <div class="media-body"> <a href="pages/single_page.html" class="catg_title"> ఐఫోన్ యూజర్ల డేటాకు ముప్పు   </a> </div>
+          </div>
+        </li>
+        <li>
+          <div class="media wow fadeInDown"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="images/suzuki.png"> </a>
+            <div class="media-body"> <a href="pages/single_page.html" class="catg_title"> ఇన్ఫీని బీట్ చేసిన సుజుకీ..దేనిలో? </a> </div>
+          </div>
+        </li>
+        <li>
+          <div class="media wow fadeInDown"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="images/house.jpg"> </a>
+            <div class="media-body"> <a href="pages/single_page.html" class="catg_title"> 75 లక్షల గృహ రుణంపై వడ్డీ తగ్గింపు</a> </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="single_sidebar">
+      <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation"><a href="#video" aria-controls="profile" role="tab" data-toggle="tab">Videos</a></li>
+        <!-- <li role="presentation"><a href="#comments" aria-controls="messages" role="tab" data-toggle="tab">Comments</a></li> -->
+      </ul>
+      <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="video">
+          <div class="vide_area">
+
+            <div class="span8">
+              <div id="myCarousel" class="carousel slide">
+                <ol class="carousel-indicators">
+                  <li data-target="#myCarousel" data-slide-to="0" class=""></li>
+                  <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+                  <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="item active">
+                    <iframe width="100%" height="250" src="http://www.youtube.com/embed/h5QWbURNEpA?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>      </div>
+                    <div class="item">
+                      <iframe width="100%" height="250" src="https://www.youtube.com/embed/XGSy3_Czz8k" frameborder="0" allowfullscreen=""></iframe>
+                    </div>
+                    <div class="item">
+                      <iframe width="100%" height="250" src="https://www.youtube.com/embed/XGSy3_Czz8k?playlist=XGSy3_Czz8k&loop=1" frameborder="0" allowfullscreen=""></iframe>
+                    </div>
+                  </div>
+                  <a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
+                  <a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
+                </div>
+              </div>
+
+
+              <!-- <iframe width="100%" height="250" src="http://www.youtube.com/embed/h5QWbURNEpA?feature=player_detailpage" frameborder="0" allowfullscreen></iframe> -->
+            </div>
+          </div>
+<!--    <div role="tabpanel" class="tab-pane" id="comments">
+<ul class="spost_nav">
+<li>
+<div class="media wow fadeInDown"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="images/post_img1.jpg"> </a>
+<div class="media-body"> <a href="pages/single_page.html" class="catg_title"> మూడో రోజూ క్షీణించిన బంగారం ధర </a> </div>
+</div>
+</li>
+<li>
+<div class="media wow fadeInDown"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="images/post_img2.jpg"> </a>
+<div class="media-body"> <a href="pages/single_page.html" class="catg_title">ఐఫోన్ యూజర్ల డేటాకు ముప్పు </a> </div>
+</div>
+</li>
+<li>
+<div class="media wow fadeInDown"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="images/post_img1.jpg"> </a>
+<div class="media-body"> <a href="pages/single_page.html" class="catg_title"> ఇన్ఫీని బీట్ చేసిన సుజుకీ..దేనిలో? </a> </div>
+</div>
+</li>
+<li>
+<div class="media wow fadeInDown"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="images/post_img2.jpg"> </a>
+<div class="media-body"> <a href="pages/single_page.html" class="catg_title">75 లక్షల గృహ రుణంపై వడ్డీ తగ్గింపు  </a> </div>
+</div>
+</li>
+</ul>
+</div> -->
+</div>
+</div>
+</aside>
+</div>
+</div>
+</section>
+<footer id="footer">
+  <div class="footer_top">
+    <div class="row">
+      <div class="col-lg-1 col-md-1 col-sm-1"> </div>
+      <div class="col-lg-4 col-md-4 col-sm-4">
+        <div class="footer_widget wow fadeInDown">
+          <h2>Tag</h2>
+          <ul class="tag_nav">
+            <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" title="వార్తలు" >వార్తలు</a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#" title="ప్రపంచం">ప్రపంచం</a></li>
+                <li><a href="#" title="జాతీయం">జాతీయం</a></li>
+                <li><a href="#" title="రాజకీయం">రాజకీయం</a></li>
+                <li><a href="#"  title="బిజినెస్">బిజినెస</a></li>
+              </ul>
+            </li>
+            <!-- <li><a href="#" title="ఆంధ్రప్రదేశ్ ">ఆంధ్రప్రదేశ్</a></li> -->
+            <li><a href="#" title="తెలంగాణ">తెలంగాణ</a></li>
+            <!-- <li><a href="pages/contact.html">Contact Us</a></li> -->
+            <!-- <li><a href="pages/404.html">404 Page</a></li> -->
+          </ul>
+        </ul>
+      </div>
+    </div>
+    <div class="col-lg-2 col-md-2 col-sm-2"> </div>
+
+    <div class="col-lg-4 col-md-4 col-sm-4">
+      <div class="footer_widget wow fadeInRightBig">
+        <h2>Contact</h2>
+        <address>
+          kashyap ,<br>hyderabad,<br>Mobile no: +91 7095005256,<br>
+          Fax.no : 123456
+        </address>
+      </div>
+    </div>
+    <div class="col-lg-1 col-md-1 col-sm-1"> </div>
+  </div>
+</div>
+<div class="footer_bottom">
+  
+  <p class="developer">Developed By kashyap </p>
+</div>
+</footer>
+</div>
+<script src="assets/js/jquery.min.js"></script> 
+<script src="assets/js/wow.min.js"></script> 
+<script src="assets/js/bootstrap.min.js"></script> 
+<script src="assets/js/slick.min.js"></script> 
+<script src="assets/js/jquery.li-scroller.1.0.js"></script> 
+<script src="assets/js/jquery.newsTicker.min.js"></script> 
+<script src="assets/js/jquery.fancybox.pack.js"></script> 
+<script src="assets/js/custom.js"></script>
+</body>
+</html>
